@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Aluno;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Session;
 
 class AlunoController extends Controller
 {
@@ -15,7 +16,7 @@ class AlunoController extends Controller
      */
     public function index()
     {
-        $alunos = Aluno::all();
+        $alunos = aluno::all();
         return view('pagProf', compact('alunos'));
     }
 
@@ -84,6 +85,5 @@ class AlunoController extends Controller
     {
         //
     }
-
 
 }

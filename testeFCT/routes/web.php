@@ -16,21 +16,35 @@ use Illuminate\Support\Facades\Route;
 /*
 Route::get('/', function () {
     return view('layout');
+});
+Route::get('/default', function () {
+    return view('deft/default');
 });*/
 
+
+/**
+* route par a pag de perfil
+*/
 Route::get('/profile', function () {
     return view('profile');
 });
 
-Route::get('/default', function () {
-    return view('default');
+/**
+*    route par a pag do Prof
+*/
+Route::resource('pagprof', 'AlunoController');
+
+/**
+*    route par a pag do Aluno
+*/
+Route::get('/pagaluno', function () {
+    return view('pagAluno');
 });
 
-Route::get('/welcome', function () {
-    return view('welcome');
-});
+/**
+*    route par a pag do Admin - uploads
+*/
+Route::get('/upload/{entidade}', 'UploadController@uploadForm')->name('uploadForm');
+Route::post('/uploadFile', 'UploadController@uploadFile');
 
-Route::resource('alunos', 'AlunoController');
-
-Route::get('/', 'AdminPagController@index');
-Route::post('/uploadFile', 'AdminPagController@uploadFile');
+Route::get('pdf','pdfController@gerarPdf');

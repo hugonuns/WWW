@@ -17,8 +17,8 @@ Released   : 20140225
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
-    <link href="css/default.css" rel="stylesheet"/>
-    <link href="css/fonts.css" rel="stylesheet"/>
+    <link href="/css/default.css" rel="stylesheet"/>
+    <link href="/css/fonts.css" rel="stylesheet"/>
 
     <!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
 
@@ -42,7 +42,7 @@ Released   : 20140225
     @yield ('content')
 
     <div id="copyright">
-        <p>&copy; Untitled. All rights reserved to <u>Me & Him</u> | Design by <u>Me, Him and our imagination</u>.</p>
+        <p>&copy; Untitled. All rights reserved to <u>Me & Him</u> | Design by <u>Our imagination!!</u>.</p>
     </div>
 </body>
 </html>
