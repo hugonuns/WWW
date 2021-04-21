@@ -16,10 +16,9 @@ class CreateVisitasTable extends Migration
         Schema::create('visita', function (Blueprint $table) {
             $table->id();
             $table->dateTime('visitaData');
-            $table->Integer('visitaHoraI');
-            $table->Integer('visitaHoraF');
+            $table->string('visitaHoraI');
+            $table->string('visitaHoraF');
             $table->text('visitaObs');
-            $table->timestamps();
         });
     }
 

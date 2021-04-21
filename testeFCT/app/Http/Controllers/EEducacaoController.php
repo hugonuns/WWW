@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\EEducacao;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Session;
 
 class EEducacaoController extends Controller
 {
@@ -82,4 +83,5 @@ class EEducacaoController extends Controller
     {
         //
     }
+
 }

@@ -18,7 +18,6 @@ class CreateOrientadorsTable extends Migration
             $table->string('orientNome');
             $table->string('orientEmail');
             $table->Integer('orientadorTm');
-            $table->timestamps();
         });
     }
 

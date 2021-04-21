@@ -19,7 +19,6 @@ class CreateCursosTable extends Migration
             $table->Integer('fctHoras10');
             $table->Integer('fctHoras11');
             $table->Integer('fctHoras12');
-            $table->timestamps();
         });
     }
 

@@ -18,7 +18,6 @@ class CreateDiretorCursosTable extends Migration
             $table->string('dirCursoEmail');
             $table->Integer('dirCursoTm');
             $table->string('dirCursoNome');
-            $table->timestamps();
         });
     }
 

@@ -16,8 +16,8 @@ class CreateFCTSTable extends Migration
         Schema::create('fct', function (Blueprint $table) {
             $table->id();
 
-            $table->tinyInteger('anoLetivoInicial');
-            $table->tinyInteger('anoLetivoFinal');
+            $table->Integer('anoLetivoInicial');
+            $table->Integer('anoLetivoFinal');
             $table->unique('anoLetivoInicial');
             $table->unique('anoLetivoFinal');
             $table->float('nota');
@@ -31,14 +31,13 @@ class CreateFCTSTable extends Migration
                 ->onUpdate('cascade')->onDelete('cascade');
 
             $table->unsignedBigInteger('aluno_id');
-            $table->foreign('aluno_id')->references('id')->on('alunos')
+            $table->foreign('aluno_id')->references('id')->on('aluno')
                 ->onUpdate('cascade')->onDelete('cascade');
 
             $table->unsignedBigInteger('visita_id');
             $table->foreign('visita_id')->references('id')->on('visita')
                 ->onUpdate('cascade')->onDelete('cascade');
 
-            $table->timestamps();
         });
     }
 

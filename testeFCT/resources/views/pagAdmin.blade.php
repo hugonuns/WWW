@@ -7,9 +7,9 @@
             <!-- Message -->
             @if(Session::has('message'))
                 <p >{{ Session::get('message') }}</p>
-        @endif
+            @endif
 
-        <!-- Form -->
+            <!-- Form -->
             <form method='post' action='/uploadFile' enctype='multipart/form-data' >
                 {{ csrf_field() }}
                 <input type='file' name='file' >

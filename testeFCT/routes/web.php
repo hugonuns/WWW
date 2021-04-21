@@ -13,24 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-/*
 Route::get('/', function () {
-    return view('layout');
-});*/
-
-Route::get('/profile', function () {
-    return view('profile');
-});
-
-Route::get('/default', function () {
-    return view('default');
-});
-
-Route::get('/welcome', function () {
     return view('welcome');
 });
 
-Route::resource('alunos', 'AlunoController');
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
 
-Route::get('/', 'AdminPagController@index');
-Route::post('/uploadFile', 'AdminPagController@uploadFile');
+require __DIR__.'/auth.php';
+require __DIR__.'/rotas.php';

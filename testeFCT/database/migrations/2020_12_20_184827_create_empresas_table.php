@@ -29,7 +29,6 @@ class CreateEmpresasTable extends Migration
             $table->Integer('tutorTf');
             $table->string('departamento');
             $table->string('monitor');
-            $table->timestamps();
         });
     }
 

@@ -30,7 +30,7 @@
                 <th>Email</th>
                 <th>Telemovel</th>
                 <th>
-                    <a href="{{ route('alunos.create') }}" class="btn btn-info btn-sm" >Novo</a>
+                    <a href="" class="btn btn-info btn-sm" >Novo</a>
                 </th>
             </tr>
             </thead>
