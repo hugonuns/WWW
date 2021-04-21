@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12P2 - NODE socket</title>
+</head>
+<body>
+    <input type="text" id="inputText" placeholder="Nome:"/>
+    <div id="msgs"><hr></div>
+</body>
+<!--disponível pela linha 'const io = require('socket.io')(http)' de server.js-->
+<!--o socket.io já disponibiliza (serve via HTTP) a referida script-->
+<script src="/socket.io/socket.io.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    // estabelecimento da conexão...
+    // ... verificar a alteração do ID após cada refresh da página (nova conexão)
+    const socket=io()
+
+    function appendMsg(msg){
+        $('#msgs').append(msg)
+        $('#msgs').append('<hr>')
+    }
+
+    socket.on('connect',()=>{
+        appendMsg('Conexão com socketID: ' + socket.id)
+    })
+    socket.on('msg',(msg)=>{
+      appendMsg(msg)
+    })
+
+    $(function(){
+      $('#inputText').on('keydown', function (key){
+          if(key.keyCode===13){
+             const nome = $(this).val()
+              $(this).val('')
+
+              socket.emit('msg',nome)
+          }
+      })
+    })
+
+</script>
+</html>
