@@ -690,6 +690,7 @@ section {
   background: rgb(0, 168, 135);
   border-color: rgb(0, 168, 135);
   padding: 70px 20px 90px 20px;
+  cursor: crosshair;
 }
 
 .services .icon-box:hover .icon {
@@ -919,6 +920,176 @@ section {
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
+/*--------------------------------------------------------------
+# services
+--------------------------------------------------------------*/
+.services #services-flters {
+  padding: 0;
+  margin: 0 auto 25px auto;
+  list-style: none;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.services #services-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #444444;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+  font-family: "Poppins", sans-serif;
+}
+
+.services #services-flters li:hover, .services #services-flters li.filter-active {
+  color: rgb(0, 168, 135);
+}
+
+.services #services-flters li:last-child {
+  margin-right: 0;
+}
+
+.services .services-item {
+  margin-bottom: 30px;
+}
+
+.services .services-item .services-info {
+  opacity: 0;
+  position: absolute;
+  left: 30px;
+  right: 30px;
+  bottom: 0;
+  z-index: 3;
+  transition: all ease-in-out 0.3s;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px;
+}
+
+.services .services-item .services-info h4 {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+  color: #191919;
+}
+
+.services .services-item .services-info p {
+  color: #4c4c4c;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.services .services-item .services-info .preview-link, .services .services-item .services-info .details-link {
+  position: absolute;
+  right: 40px;
+  font-size: 24px;
+  top: calc(50% - 18px);
+  color: #333333;
+}
+
+.services .services-item .services-info .preview-link:hover, .services .services-item .services-info .details-link:hover {
+  color: rgb(0, 168, 135);
+}
+
+.services .services-item .services-info .details-link {
+  right: 10px;
+}
+
+.services .services-item .services-links {
+  opacity: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 3;
+  position: absolute;
+  transition: all ease-in-out 0.3s;
+}
+
+.services .services-item .services-links a {
+  color: #fff;
+  margin: 0 2px;
+  font-size: 28px;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.services .services-item .services-links a:hover {
+  color: rgb(0, 168, 135);
+}
+
+.services .services-item:hover .services-info {
+  opacity: 1;
+  bottom: 20px;
+}
+
+/*--------------------------------------------------------------
+# Services Details
+--------------------------------------------------------------*/
+.services-details {
+  padding-top: 40px;
+}
+
+.services-details .services-details-slider img {
+  width: 100%;
+}
+
+.services-details .services-details-slider .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.services-details .services-details-slider .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid rgb(0, 168, 135);
+}
+
+.services-details .services-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: rgb(0, 168, 135);
+}
+
+.services-details .services-info {
+  padding: 30px;
+  box-shadow: 0px 0 30px rgba(25, 25, 25, 0.08);
+}
+
+.services-details .services-info h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.services-details .services-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+
+.services-details .services-info ul li + li {
+  margin-top: 10px;
+}
+
+.services-details .services-description {
+  padding-top: 30px;
+}
+
+.services-details .services-description h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.services-details .services-description p {
+  padding: 0;
+}
+
 
 /*--------------------------------------------------------------
 # Pricing
