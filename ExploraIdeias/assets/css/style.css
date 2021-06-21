@@ -652,7 +652,16 @@ section {
   margin-bottom: 20px;
   transform-style: preserve-3d;
 }
-
+.services .icon-box .smallIcon {
+  margin: 0 auto;
+  width: 32px;
+  height: 32px;
+  transition: all .3s ease-out 0s;
+  display: flex;
+  align-items: bottom;
+  justify-content: right;
+  margin-bottom: 2px;
+}
 .services .icon-box .icon i {
   color: #fff;
   font-size: 28px;
@@ -698,11 +707,14 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color: rgb(37, 177, 96);
+  color: rgb(0, 168, 135);
+}
+.services .icon-box:hover .smallIcon i {
+  color: rgb(0, 168, 135);
 }
 
 .services .icon-box:hover .icon::before {
-  background: rgb(35, 179, 100);
+  background: rgb(0, 168, 135);
 }
 
 .services .icon-box:hover h4 a, .services .icon-box:hover p {
@@ -710,8 +722,12 @@ section {
 }
 
 .services .icon-box:hover img{
-  -webkit-filter: grayscale(100%) brightness(40%) sepia(100 %) hue-rotate(50deg) saturate(1000%) contrast(0.8);
-  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(50deg) saturate(1000%) contrast(0.8);
+  -webkit-filter: grayscale(95%) brightness(90%) sepia(100%) hue-rotate(125deg) saturate(700%) contrast(0.5);
+  filter: grayscale(95%) brightness(90%) sepia(100%) hue-rotate(125deg) saturate(700%) contrast(0.5);
+}
+.services .icon-box:hover i{
+  -webkit-filter: grayscale(95%) brightness(90%) sepia(100%) hue-rotate(125deg) saturate(700%) contrast(0.5);
+  filter: grayscale(95%) brightness(90%) sepia(100%) hue-rotate(125deg) saturate(700%) contrast(0.5);
 }
 /*--------------------------------------------------------------
 # Cta
@@ -861,6 +877,7 @@ section {
 --------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 40px;
+  padding-left: 100 px;
 }
 
 .portfolio-details .portfolio-details-slider img {
