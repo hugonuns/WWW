@@ -9,14 +9,14 @@
   <meta property="og:url" content="http://www.exploraideias.pt/">
   <link rel="canonical" href="http://www.exploraideias.pt/">
   <meta content="Competência e fiabilidade para a sua empresa" name="description">
-  <meta lang="pt" content="" name="keywords">
+  <meta lang="pt" content="explora ideias serviços, serviços explora ideias" name="keywords">
   <meta content="index, follow" name="Robots">
   <meta content="pt" name="content-language">
   <meta content="15 days" name="Revisit-after">
   <meta content="Hugo Nunes" name="Author">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/favicon.jpg" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -29,6 +29,7 @@
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -60,11 +61,11 @@
 
     <nav id="navbar" class="navbar">
       <ul>
-        <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+        <li><a class="nav-link scrollto" href="index.html">Home</a></li>
         <li><a class="nav-link scrollto" href="index.html#about">Empresa</a></li>
-        <li><a class="nav-link scrollto" href="#services">Serviços</a></li>
-        <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-        <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
+        <li><a class="nav-link scrollto active" href="#">Serviços</a></li>
+        <li><a class="nav-link scrollto " href="#">Portfolio</a></li>
+        <li><a class="nav-link scrollto" href="#">Contacto</a></li>
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
     </nav><!-- .navbar -->
@@ -116,14 +117,10 @@
           </div>
           <div class="services-description">
                 <p>Design<br>
-                  Design editorial<br>
                   Design gráfico<br>
-                  Identidades corpozativas<br>
+                  Identidades corporativas<br>
                   Publicidade<br>
-                  Ilustração<br>
                   Criação e gestão de marcas<br>
-                  Packaging<br>
-                  Marketing promocional e relacional<br>
                   <b>PRÉ IMPRESSÃO</b><br>
                   Com uma equipa altamente qualificada para analizar os ficheiros recebidos preparando-os de forma que se obtenha os melhores resultados na impressão final.</p>
             </p>
@@ -207,6 +204,9 @@
               <div class="swiper-slide">
                 <img src="assets/img/Services/ServiceViatura7.jpg" alt="">
               </div>
+              <div class="swiper-slide">
+                <img src="assets/img/Services/ServiceViatura8.jpg" alt="">
+              </div>
             </div>
           </div>
         </div>
@@ -246,11 +246,11 @@
             <div class="swiper-wrapper align-items-top">
 
               <div class="swiper-slide">
-                <img src="assets/img/portfolio/impressao1.jpg" alt="">
+                <img src="assets/img/Services/ServiceAcabamento1.jpg" alt="">
               </div>
 
               <div class="swiper-slide">
-                <img src="assets/img/portfolio/impressao2.jpg" alt="">
+                <img src="assets/img/Services/ServiceAcabamento2.jpg" alt="">
               </div>
             </div>
           </div>
@@ -269,15 +269,7 @@
             <div class="swiper-wrapper align-items-top">
 
               <div class="swiper-slide">
-                <img src="assets/img/Services/ServiceViatura1.jpg" alt="">
-              </div>
-
-              <div class="swiper-slide">
-                <img src="assets/img/Services/ServiceViatura2.jpg" alt="">
-              </div>
-
-              <div class="swiper-slide">
-                <img src="assets/img/Services/ServiceViatura3.jpg" alt="">
+                <img src="assets/img/Services/ServiceGlobais1.jpg" alt="">
               </div>
             </div>
           </div>
@@ -305,10 +297,111 @@
           <div class="services-info">
             <h4><b>Publicidade Exterior</b></h4>
           </div>
-          <div class="services-description">
-            <p>A publicidade exterior é a forma mais antiga de publicidade.
-            <br>
+          <div class="container" id="menu" >
+          <ul class="nav nav-tabs" style="border-bottom:0px transparent;">
+            <li id="outdoors"><a data-page="empenaData" onclick="menu('outdoorsContent')">Outdoors</a></li>
+            <li id="pendoes"><a data-page="empenaData" onclick="menu('outdoorsContent')">Pendões</a></li>
+            <li id="empena"><a data-page="empenaData" onclick="menu('outdoorsContent')">Empena</a></li>
+          </ul>
+          <ul class="nav nav-tabs" style="padding-left: 20px;border-bottom:0px transparent;" id="menu2">
+            <li id="publicidade" style="text-align: center;"><a>Publicidade<br>Móvel</a></li>
+            <li id="monoposte" style=" text-align: center;"><a>Monoposte</a></li>
+          </ul>
+          </div>
+          <div id="menuContent" class="services-description">
+            <div id="defaultContent" class="content" style="display: block">
+              <p>A publicidade exterior é a forma mais antiga de publicidade.
+              <br>
               Hoje são utilizados como suporte transportes públicos, automóveis comerciais, as cabines telefónicas, as fachadas dos prédios e tudo o mais que a imaginação dos criativos e dos empresários permitir. É acessível, gratuita e absorvida facilmente pelo consumidor visto que a publicidade exterior visa a simplicidade e o destaque.</p>
+            </div>
+            <div id="outdoorsContent" class="content">
+              <p>A publicidade exterior é a forma mais antiga de publicidade.
+            </div>
+            <div id="pendoesContent" class="content">
+              <p>A publicidade 123.
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="portfolio-details-slider swiper-container">
+            <div class="swiper-wrapper align-items-top">
+              <div class="swiper-slide">
+                <img src="assets/img/Services/ServiceOutdoor.jpg" alt="">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="assets/img/portfolio/impressao2.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/img/portfolio/impressao2.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/img/Services/ServicePubMovel.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/img/Services/ServiceMonoposte.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="ServiceReclamoLuminoso" class="portfolio-details">
+    <div class="container">
+
+      <div class="row gy-4">
+
+        <div class="col-lg-7">
+          <div class="portfolio-details-slider swiper-container">
+            <div class="swiper-wrapper align-items-top">
+
+              <div class="swiper-slide">
+                <img src="assets/img/Services/ServiceReclamoLuminoso1.jpg" alt="">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="assets/img/Services/ServiceReclamoLuminoso5.jpg" alt="">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="assets/img/Services/ServiceReclamoLuminoso2.jpg" alt="">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="assets/img/Services/ServiceReclamoLuminoso3.jpg" alt="">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="assets/img/Services/ServiceReclamoLuminoso4.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="services-info" >
+            <h4><b>Reclamos Luminosos</b></h4>
+          </div>
+          <div class="services-description">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section id="ServiceOutdoorAluguer" class="portfolio-details" >
+    <div class="container">
+
+      <div class="row gx-5">
+
+        <div class="col-lg-4">
+          <div class="services-info">
+            <h4><b>Rede de Outdoors de Aluguer</b></h4>
+          </div>
+          <div class="services-description">
+            <p>A Exploraideias dispõe de todos os mecanismos necessários para fabricação de qualquer dimensão de Outdoors.</p>
           </div>
         </div>
         <div class="col-lg-7">
@@ -316,11 +409,76 @@
             <div class="swiper-wrapper align-items-top">
 
               <div class="swiper-slide">
-                <img src="assets/img/portfolio/impressao1.jpg" alt="">
+                <img src="assets/img/Services/ServiceOutdoor.jpg" alt="">
               </div>
+              <div class="swiper-slide">
+                <img src="assets/img/Services/ServiceAluguer1.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/img/Services/ServiceAluguer2.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="ServiceExposicao" class="portfolio-details">
+    <div class="container">
+
+      <div class="row gy-4">
+
+        <div class="col-lg-7">
+          <div class="portfolio-details-slider swiper-container">
+            <div class="swiper-wrapper align-items-top">
 
               <div class="swiper-slide">
-                <img src="assets/img/portfolio/impressao2.jpg" alt="">
+                <img src="assets/img/Services/ServiceExposicao1.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/img/Services/ServiceExposicao2.jpg" alt="">
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="services-info" >
+            <h4><b>Sistemas de Exposição</b></h4>
+          </div>
+          <div class="services-description">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section id="ServiceCorteGravacao" class="portfolio-details" >
+    <div class="container">
+
+      <div class="row gx-5">
+
+        <div class="col-lg-4">
+          <div class="services-info">
+            <h4><b>Corte e Gravação Laser</b></h4>
+          </div>
+          <div class="services-description">
+            <p>A Exploraideias dispõe de todos os mecanismos necessários para fabricação de qualquer dimensão de Outdoors.</p>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="portfolio-details-slider swiper-container">
+            <div class="swiper-wrapper align-items-top">
+
+              <div class="swiper-slide">
+                <img src="assets/img/Services/ServiceOutdoor.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/img/Services/ServiceAluguer1.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/img/Services/ServiceAluguer2.jpg" alt="">
               </div>
             </div>
           </div>
@@ -414,10 +572,21 @@
 <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 <script src="assets/vendor/php-email-form/validate.js"></script>
 <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 <!-- Template Main JS File -->
 <script src="assets/js/main.js"></script>
-
+<script>
+  function menu(el){
+    var y = document.getElementById('menuContent');
+    var x = document.getElementById(el);
+    y.style.display = "none";
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    }
+  }
+</script>
 </body>
 
 </html>

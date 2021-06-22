@@ -5,7 +5,6 @@
 * License: https://bootstrapmade.com/license/
 */
 
-
 /*--------------------------------------------------------------
 # General
     --------------------------------------------------------------*/
@@ -15,7 +14,7 @@ color: #444444;
 }
 
 a {
-color: rgb(0, 168, 135);
+color: rgb(46, 192, 158);
 text-decoration: none;
 }
 
@@ -38,7 +37,7 @@ font-family: "Montserrat";
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: rgb(0, 168, 135);
+  background: rgb(46, 192, 158);
   width: 40px;
   height: 40px;
   transition: all 0.4s;
@@ -51,7 +50,7 @@ font-family: "Montserrat";
 }
 
 .back-to-top:hover {
-  background: rgb(0, 168, 135);
+  background: rgb(46, 192, 158);
   color: #fff;
 }
 
@@ -79,7 +78,7 @@ font-family: "Montserrat";
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid rgb(0, 168, 135);
+  border: 6px solid rgb(46, 192, 158);
   border-top-color: #efefef;
   border-radius: 50%;
   width: 60px;
@@ -137,7 +136,7 @@ font-family: "Montserrat";
 }
 
 #topbar .contact-info i {
-  color: rgb(0, 168, 135);
+  color: rgb(46, 192, 158);
   line-height: 0;
   margin-right: 5px;
 }
@@ -201,7 +200,6 @@ font-family: "Montserrat";
   padding: 0;
   display: flex;
   list-style: none;
-  align-items: center;
 }
 
 .navbar li {
@@ -214,8 +212,6 @@ font-family: "Montserrat";
 
 .navbar a, .navbar a:focus {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
   padding: 25px 15px 24px 15px;
   font-size: 14px;
   color: #fff;
@@ -230,7 +226,7 @@ font-family: "Montserrat";
 }
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  background: rgb(0, 168, 135);
+  background: rgb(46, 192, 158);
   color: inherit;
 }
 
@@ -307,7 +303,7 @@ font-family: "Montserrat";
 }
 
 .mobile-nav-toggle.bi-x {
-  color: rgb(0, 168, 135);
+  color: rgb(46, 192, 158);
 }
 
 @media (max-width: 991px) {
@@ -344,7 +340,7 @@ font-family: "Montserrat";
   right: 15px;
   bottom: 15px;
   left: 15px;
-  padding: 10px 0;
+  padding: 130px 75px 130px 75px;
   background-color: #fff;
   overflow-y: auto;
   transition: 0.3s;
@@ -352,13 +348,14 @@ font-family: "Montserrat";
 
 .navbar-mobile a {
   padding: 10px 20px;
-  font-size: 15px;
+  font-size: 20px;
   color: #191919;
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #cc1616;
+  color: rgb(46, 192, 158);;
   background: none;
+
 }
 
 .navbar-mobile .getstarted {
@@ -390,7 +387,7 @@ font-family: "Montserrat";
 }
 
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #cc1616;
+  color: rgb(46, 192, 158);;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -447,8 +444,8 @@ font-family: "Montserrat";
 }
 
 #hero .btn-get-started:hover {
-  background: rgb(0, 168, 135);
-  border-color: rgb(0, 168, 135);
+  background: rgb(46, 192, 158);
+  border-color: rgb(46, 192, 158);
 }
 
 @media (min-width: 1024px) {
@@ -549,7 +546,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: rgb(0, 168, 135);
+  color: rgb(46, 192, 158);
 }
 
 .about .content p:last-child {
@@ -573,7 +570,7 @@ section {
   display: block;
   font-size: 28px;
   font-weight: 700;
-  color: rgb(0, 168, 135);
+  color: rgb(46, 192, 158);
 }
 
 .why-us .box h4 {
@@ -592,7 +589,7 @@ section {
 }
 
 .why-us .box:hover {
-  background: rgb(0, 168, 135);
+  background: rgb(46, 192, 158);
   padding: 30px 30px 70px 30px;
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
@@ -644,7 +641,7 @@ section {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: rgb(0, 168, 135);
+  background: rgb(46, 192, 158);
   transition: all .3s ease-out 0s;
   display: flex;
   align-items: center;
@@ -696,8 +693,8 @@ section {
 }
 
 .services .icon-box:hover {
-  background: rgb(0, 168, 135);
-  border-color: rgb(0, 168, 135);
+  background: rgb(46, 192, 158);
+  border-color: rgb(46, 192, 158);
   padding: 70px 20px 90px 20px;
   cursor: crosshair;
 }
@@ -707,14 +704,14 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color: rgb(0, 168, 135);
+  color: rgb(46, 192, 158);
 }
 .services .icon-box:hover .smallIcon i {
-  color: rgb(0, 168, 135);
+  color: rgb(46, 192, 158);
 }
 
 .services .icon-box:hover .icon::before {
-  background: rgb(0, 168, 135);
+  background: rgb(46, 192, 158);
 }
 
 .services .icon-box:hover h4 a, .services .icon-box:hover p {
@@ -733,7 +730,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/.jpg") fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
@@ -763,8 +760,8 @@ section {
 }
 
 .cta .cta-btn:hover {
-  background: rgb(0, 168, 135);
-  border: 2px solid rgb(0, 168, 135);
+  background: rgb(46, 192, 158);
+  border: 2px solid rgb(46, 192, 158);
 }
 
 /*--------------------------------------------------------------
@@ -793,7 +790,7 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: rgb(0, 168, 135);
+  color: rgb(46, 192, 158);
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -838,7 +835,7 @@ section {
 }
 
 .portfolio .portfolio-item .portfolio-info .preview-link:hover, .portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: rgb(0, 168, 135);
+  color: rgb(46, 192, 158);
 }
 
 .portfolio .portfolio-item .portfolio-info .details-link {
@@ -864,7 +861,7 @@ section {
 }
 
 .portfolio .portfolio-item .portfolio-links a:hover {
-  color: rgb(0, 168, 135);
+  color: rgb(46, 192, 158);
 }
 
 .portfolio .portfolio-item:hover .portfolio-info {
@@ -876,8 +873,11 @@ section {
 # Portfolio Details
 --------------------------------------------------------------*/
 .portfolio-details {
-  padding-top: 40px;
-  padding-left: 100 px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .portfolio-details .portfolio-details-slider img {
@@ -894,11 +894,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid rgb(0, 168, 135);
+  border: 1px solid rgb(46, 192, 158);
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: rgb(0, 168, 135);
+  background-color: rgb(46, 192, 158);
 }
 
 .portfolio-details .portfolio-info {
@@ -963,7 +963,7 @@ section {
 }
 
 .services #services-flters li:hover, .services #services-flters li.filter-active {
-  color: rgb(0, 168, 135);
+  color: rgb(46, 192, 158);
 }
 
 .services #services-flters li:last-child {
@@ -1008,7 +1008,7 @@ section {
 }
 
 .services .services-item .services-info .preview-link:hover, .services .services-item .services-info .details-link:hover {
-  color: rgb(0, 168, 135);
+  color: rgb(46, 192, 158);
 }
 
 .services .services-item .services-info .details-link {
@@ -1034,7 +1034,7 @@ section {
 }
 
 .services .services-item .services-links a:hover {
-  color: rgb(0, 168, 135);
+  color: rgb(46, 192, 158);
 }
 
 .services .services-item:hover .services-info {
@@ -1063,11 +1063,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid rgb(0, 168, 135);
+  border: 1px solid rgb(46, 192, 158);
 }
 
 .services-details .services-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: rgb(0, 168, 135);
+  background-color: rgb(46, 192, 158);
 }
 
 .services-details .services-info {
@@ -1131,7 +1131,7 @@ section {
 
 .pricing .box h4 {
   font-size: 42px;
-  color: rgb(0, 168, 135);
+  color: rgb(46, 192, 158);
   font-weight: 500;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 20px;
@@ -1163,7 +1163,7 @@ section {
 }
 
 .pricing .box ul i {
-  color: rgb(0, 168, 135);
+  color: rgb(46, 192, 158);
   font-size: 18px;
   padding-right: 4px;
 }
@@ -1179,7 +1179,7 @@ section {
 }
 
 .pricing .box .btn-buy {
-  background: rgb(0, 168, 135);
+  background: rgb(46, 192, 158);
   display: inline-block;
   padding: 10px 40px;
   color: #fff;
@@ -1192,11 +1192,11 @@ section {
 }
 
 .pricing .box .btn-buy:hover {
-  background: rgb(0, 168, 135);
+  background: rgb(46, 192, 158);
 }
 
 .pricing .featured {
-  background: rgb(0, 168, 135);
+  background: rgb(46, 192, 158);
   box-shadow: none;
   color: #fff;
 }
@@ -1220,7 +1220,7 @@ section {
 
 .pricing .featured .btn-buy:hover {
   background: #fff;
-  color: rgb(0, 168, 135);
+  color: rgb(46, 192, 158);
 }
 
 /*--------------------------------------------------------------
@@ -1269,7 +1269,7 @@ section {
 }
 
 .team .member .social a:hover {
-  color: rgb(0, 168, 135);
+  color: rgb(46, 192, 158);
 }
 
 .team .member .social i {
@@ -1289,7 +1289,7 @@ section {
 
 .contact .info-box i {
   font-size: 32px;
-  color: rgb(0, 168, 135);
+  color: rgb(46, 192, 158);
   border-radius: 50%;
   padding: 8px;
   border: rgb(30, 198, 105);
@@ -1317,7 +1317,7 @@ section {
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: rgb(0, 168, 135);
+  background: rgb(46, 192, 158);
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -1330,7 +1330,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: rgb(0, 168, 135);
+  background: rgb(46, 192, 158);
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1350,7 +1350,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid rgb(0, 168, 135);
+  border: 3px solid rgb(46, 192, 158);
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1363,7 +1363,7 @@ section {
 }
 
 .contact .php-email-form input::focus, .contact .php-email-form textarea::focus {
-  background-color: rgb(0, 168, 135);
+  background-color: rgb(46, 192, 158);
 }
 
 .contact .php-email-form input {
@@ -1375,7 +1375,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: rgb(0, 168, 135);
+  background: rgb(46, 192, 158);
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1383,7 +1383,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: rgb(0, 168, 135);
+  background: rgb(46, 192, 158);
 }
 
 @-webkit-keyframes animate-loading {
@@ -1455,7 +1455,7 @@ section {
   margin-bottom: 15px;
   background: #191919;
   color: #fff;
-  border-top: 4px solid rgb(0, 168, 135);
+  border-top: 4px solid rgb(46, 192, 158);
   text-align: center;
   padding: 30px 20px;
 }
@@ -1491,7 +1491,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: rgb(0, 168, 135);
+  background: rgb(46, 192, 158);
   color: #fff;
   text-decoration: none;
 }
@@ -1565,7 +1565,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: rgb(0, 168, 135);
+  background: rgb(46, 192, 158);
   color: #fff;
   transition: 0.3s;
   border-radius: 4;
@@ -1589,7 +1589,7 @@ section {
 }
 
 #footer .credits a {
-  color: rgb(0, 168, 135);
+  color: rgb(46, 192, 158);
 }
 
 @media (max-width: 575px) {

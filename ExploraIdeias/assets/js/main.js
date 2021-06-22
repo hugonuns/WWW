@@ -242,3 +242,31 @@
   });
 
 })()
+
+function fadeOut(el) {
+  el.style.opacity = 1;
+  (function fade() {
+    if ((el.style.opacity -= .1) < 0) {
+      el.style.display = "none";
+    } else {
+      requestAnimationFrame(fade);
+    }
+  })();
+};
+function fadeIn(el) {
+  el.style.opacity = 0;
+  el.style.display = "block";
+  (function fade() {
+    var val = parseFloat(el.style.opacity);
+    if (!((val += .1) >= 1)) {
+      el.style.opacity = val;
+      requestAnimationFrame(fade);
+    }
+  })();
+};
+function services(el){
+  location.replace("Services.html#"+el);
+};
+window.addEventListener('')
+
+//document.getElementsByClassName('icon-box')[0].addEventListener('click', function (event) {;});
