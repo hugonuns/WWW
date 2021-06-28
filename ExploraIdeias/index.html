@@ -22,8 +22,9 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;700&display=swap" rel="stylesheet">
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -48,7 +49,6 @@
       </div>
       <div class="social-links d-none d-md-block">
         <a href="https://www.facebook.com/exploraideiaspublicidade" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="https://www.instagram.com/exploraideias/" class="instagram"><i class="bi bi-instagram"></i></a>
       </div>
     </div>
   </section>
@@ -80,8 +80,7 @@
   <section id="hero" class="d-flex align-items-center">
     <div class="container position-relative" data-aos="fade-up" data-aos-delay="500">
       <h1>A sua publicidade com profissionais</h1>
-      <h2>Dê mais visibilidade ao seu negócio!</h2>
-      <a href="#about" class="btn-get-started scrollto">Explorar</a>
+      <h2>DÊ MAIS VISIBILIDADE AO SEU NEGÓCIO!</h2>
     </div>
   </section><!-- End Hero -->
 
@@ -89,29 +88,32 @@
 
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
-      <div class="container">
 
+      <div class="container">
+        <h2 style="margin-bottom: 0.6cm">Empresa</h2>
         <div class="row" >
-          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left">
-            <img class="img-fluid" style="padding-top: 2cm; padding-bottom: 2cm" src="assets/img/about.jpg"  alt="">
+          <div id="aboutTextRight" class="col-lg-6 order-1 order-lg-2" data-aos="fade-left">
+            <h3>VISÃO</h3>
+            <p>
+              Seremos o seu parceiro que responde a todas as necessidades nesta área.<br>
+              Acompanhando a evolução das novas tecnologias dispomos dos mais recentes meios em impressão digital, corte, vinil, decoração de interiores e acabamento, para com autonomia e profissionalismo produzir tudo para a sua empresa, evento ou marca.<br>
+              Com criatividade, inovação, dinamismo e qualidade conquistamos o mercado publicitário para servir as necessidades de quem nos procura.<br>
+            </p>
           </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
-            <h3>Empresa</h3>
+          <div id="aboutTextLeft" class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
+
+            <h3>MISSÃO</h3>
             <p>
               A empresa Explora Ideias Publicidade tem como grande objectivo e missão de trabalho o desenvolvimento de soluções criativas na satisfação das necessidades específicas de cada cliente.<br>
               Com larga experiência ao serviço da publicidade, efectuamos trabalhos com modernidade, talento e competência.<br>
-              Seremos o seu parceiro que responde a todas as necessidades nesta área.<br>
-              Acompanhando a evolução das novas tecnologias dispomos dos mais recentes meios em impressão digital, corte, vinil, serralharia e acabamento, para com autonomia e profissionalismo produzir tudo para a sua empresa, evento ou marca.<br>
-              Com criatividade, inovação, dinamismo e qualidade conquistamos o mercado publicitário para servir as necessidades de quem nos procura.<br>
-              A nossa missão é assegurar um futuro de êxito aos nossos clientes, dispondo de uma competente equipa profissional com parceiros especializados e resultados comprovados.<br>
-              Por isso não deixe de nos contactar.
+              O nosso compromisso é assegurar um futuro de êxito aos nossos clientes, dispondo de uma competente equipa profissional com parceiros especializados e resultados comprovados.<br>
             </p>
           </div>
+
         </div>
 
       </div>
-    </section><!-- End About Section -->
-
+    </section>
     <!-- ======= Clients Section ======= -->
     <section id="clients" class="clients">
       <div class="container" data-aos="zoom-in">
@@ -152,128 +154,181 @@
       <div class="container">
 
         <div class="section-title">
-          <span>Serviços</span>
           <h2>Serviços</h2>
         </div>
 
         <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" id="section_one" onclick="services('ServiceDesign')">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" id="section_one">
             <div class="icon-box">
               <div class="icon"><img style="width: 70%;height: 70%" src="assets/img/icons/ICONS-13.png" alt=""></div>
               <h4>Design Gráfico + Pré Impressão</h4>
               <p>O processo criativo traduz-se na aplicação de um conceito, ideia ou visão, a um objectivo, de forma a causar reacção ou efeito sobre a razão.</p>
+              <div class="col-lg-12 d-flex justify-content-center">
+                <ul id="services-filters">
+                  <li data-filter="*" onclick="services('ServiceDesign')">Saber Mais</li>
+                </ul>
+              </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="150" onclick="services('ServiceImpressao')">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="150" >
             <div class="icon-box">
               <div class="icon"><img style="width: 70%;height: 70%" src="assets/img/icons/ICONS-01.png" alt=""></div>
               <h4>Impressão Digital</h4>
               <p>Acreditamos que o conhecimento é fruto da imaginação e da curiosidade. E que o único lugar onde o sucesso vem antes do trabalho é no dicionário.</p>
+              <div class="col-lg-12 d-flex justify-content-center">
+                <ul id="services-filters">
+                  <li data-filter="*" onclick="services('ServiceImpressao')">Saber Mais</li>
+                </ul>
+              </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300" onclick="services('ServiceViaturas')">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
             <div class="icon-box">
               <div class="icon"><img style="width: 70%;height: 70%" src="assets/img/icons/ICONS-05.png" alt=""></div>
               <h4>Decoração de Viaturas</h4>
               <p>Podem ser decoradas em vinil recortado ou impressão digital.</p>
+              <div class="col-lg-12 d-flex justify-content-center">
+                <ul id="services-filters">
+                  <li data-filter="*" onclick="services('ServiceViaturas')">Saber Mais</li>
+                </ul>
+              </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300" onclick="services('ServiceAplicacao')">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
             <div class="icon-box">
               <div class="icon"><img style="width: 70%;height: 70%" src="assets/img/icons/ICONS-06.png" alt=""></div>
               <h4>Aplicação e Acabamentos</h4>
               <p>Dispomos de técnicos especializados e dedicados só para montagens.</p>
               <p>Estamos vocacionados tanto para decoração de Interiores como de exteriores assim como decoração de viaturas ou aviões.</p>
+              <div class="col-lg-12 d-flex justify-content-center">
+                <ul id="services-filters">
+                  <li data-filter="*" onclick="services('ServiceAplicacao')">Saber Mais</li>
+                </ul>
+              </div>
             </div>
           </div>
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300" onclick="services('ServiceGlobais')">
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
               <div class="icon-box">
-                <div class="icon"><i class="bx bx-world"></i></div>
-                <h4>Projectos Globais</h4>
-                <p>Realizamos projectos do âmbito da comunicação visual e decoração, de forma global desde a impressão, corte, acabamento até à construção de estruturas e instalação com os melhores profissionais ao nosso serviço em todo o continente e ilhas.</p>
-                <div class="icon" style="width: 32px; height: 32px; "><i class="bx bx-plus"></i></div>
+                <div class="icon"><img style="width: 70%;height: 70%" src="assets/img/icons/ICONS-12.png" alt=""></div>
+                <h4>Corte e Gravação Laser</h4>
+                <p>O corte e gravação a laser é uma tecnologia com recurso a uma máquina cuja ferramenta principal é um tubo de laser.</p>
+                <div class="col-lg-12 d-flex justify-content-center">
+                  <ul id="services-filters">
+                    <li data-filter="*" onclick="services('ServiceCorteGravacao')">Saber Mais</li>
+                  </ul>
+                </div>
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="750" onclick="services('ServiceExterior')">
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="750">
               <div class="icon-box">
                 <div class="icon"><img style="width: 70%;height: 70%" src="assets/img/icons/ICONS-07.png" alt=""></div>
                 <h4>Publicidade Exterior</h4>
                 <p>A publicidade exterior é a forma mais antiga de publicidade. <br>
                   Os primeiros meios físicos utilizados foram os tradicionais outdoors, porém nos últimos anos a publicidade exterior estendeu-se a novos meios estáticos e móveis.</p>
-                <!--<h5>Pendões</h5>
-                <h5>Outdoors</h5>
-                <h5>Empena</h5>
-                <h5>Publicidade Móvel</h5>
-                <h5>Monoposte</h5>-->
+                <div class="col-lg-12 d-flex justify-content-center">
+                  <ul id="services-filters">
+                    <li data-filter="*" onclick="services('ServiceExterior')">Saber Mais</li>
+                  </ul>
+                </div>
               </div>
             </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="600" onclick="services('ServiceReclamoLuminoso')">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="600">
             <div class="icon-box">
               <div class="icon"><img style="width: 70%;height: 70%" src="assets/img/icons/ICON-ReclamoLuminoso.png" alt=""></div>
               <h4>Reclamos Luminosos</h4>
                 <p>Actualmente os reclamos luminosos extistentes no mercado dividem-se em 4 tipos:<br></p>
+              <div class="col-lg-12 d-flex justify-content-center">
+                <ul id="services-filters">
+                  <li data-filter="*" onclick="services('ServiceReclamoLuminoso')">Saber Mais</li>
+                </ul>
+              </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="600" onclick="services('ServiceOutdoorAluguer')">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="600">
             <div class="icon-box">
               <div class="icon"><img style="width: 70%;height: 70%" src="assets/img/icons/ICONS-10.png" alt=""></div>
               <h4>Rede de Outdoors de Aluguer</h4>
               <p>A Exploraideias dispõe de todos os mecanismos necessários para fabricação de qualquer dimensão de Outdoors.</p>
+              <div class="col-lg-12 d-flex justify-content-center">
+                <ul id="services-filters">
+                  <li data-filter="*" onclick="services('ServiceOutdoorAluguer')">Saber Mais</li>
+                </ul>
+              </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="600" onclick="services('ServiceExposicao')">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="600">
             <div class="icon-box">
               <div class="icon"><img style="width: 70%;height: 70%" src="assets/img/icons/ICON-sistemaExposicao.png" alt=""></div>
               <h4>Sistemas de Exposição</h4>
               <p>Possuímos um vasto catálogo de propostas de sistemas de exposição.<br>
                 Concebemos à sua medida, apresentamos o projecto e fornecemos o produto integral (estrutura + imagem).</p>
+              <div class="col-lg-12 d-flex justify-content-center">
+                <ul id="services-filters">
+                  <li data-filter="*" onclick="services('ServiceExposicao')">Saber Mais</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="600" style="">
+            <div class="icon-box">
+              <div class="icon"><img style="width: 70%;height: 70%" src="assets/img/icons/ICON-sistemaExposicao.png" alt=""></div>
+              <h4>Decoração de Interiores e Montras</h4>
+              <p>Possuímos um vasto catálogo de propostas de sistemas de exposição.<br>
+                Concebemos à sua medida, apresentamos o projecto e fornecemos o produto integral (estrutura + imagem).</p>
+              <div class="col-lg-12 d-flex justify-content-center">
+                <ul id="services-filters">
+                  <li data-filter="*" onclick="services('ServiceDecInteriores')">Saber Mais</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
 
       </div>
     </section><!-- End Services Section -->
-    <section id="revenda" class="about">
-      <div class="container">
 
-        <div class="row" >
-          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left">
-            <img class="img-fluid" style="padding-top: 2cm; padding-bottom: 2cm" src="assets/img/Revenda.jpg"  alt="">
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
-            <h3>Revenda</h3>
-            <p>
-              A Explora Ideias em Portugal proporciona fortes relações de parceria com empresas e particulares externos. Se comercializa serviços ou produtos direccionados para o sector da publicidade exterior e interior, impressão digital ou brindes por favor não deixe de nos contactar.
-              <br><br>
-              <b>IMPRESSÃO DIGITAL</b><br>
-              Viníl, lona, tecido, papel<br>
-              <b>RECLAMOS LUMINOSOS</b><br>
-              Todo o tipo de reclamos luminosos<br>
-              <b>SERRALHARIA</b><br>
-              Outdoors, empenas, minis, mupis, expositores<br>
-              <b>PUBLICIDADE MÓVEL</b><br>
-              Viaturas com painéis fixos<br>
-              <b>COMUNICAÇÃO VISUAL</b><br>
-              X-banner, Roll Up banner, exterior banner, mostradores para promoções, porta-folhetos, marcos de alumínio, acessórios electrónicos, tótems entre muitos outros. A sua Publicidade com Profissionais.
-            </p>
-          </div>
-        </div>
-
-      </div>
-    </section>
     <!-- ======= Cta Section ======= -->
-    <section id="cta" class="cta">
+    <section id="revenda" class="cta">
       <div class="container" data-aos="zoom-in">
 
         <div class="text-center">
-          <h3>Call To Action</h3>
-          <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <a class="cta-btn" href="#">Call To Action</a>
+          <h2 style="margin-bottom: 0.6cm"><b>Revenda</b></h2>
+          <p>
+            A Explora Ideias em Portugal proporciona fortes relações de parceria com empresas e particulares externos. Se comercializa serviços ou produtos direccionados para o sector da publicidade exterior e interior, impressão digital ou brindes por favor não deixe de nos contactar.
+            <br><br><br></p>
+          <div class="container">
+
+            <div class="row" >
+              <div id="ctaTextLeft" class="col-lg-6 order-1 order-lg-2" data-aos="fade-left">
+                <p>
+                  <b>PUBLICIDADE EXTERIOR</b><br>
+                  Outdoors, empenas, minis, mupis, expositores<br><br>
+                  <b>PUBLICIDADE MÓVEL</b><br>
+                  Viaturas com painéis fixos<br><br>
+                  <b>COMUNICAÇÃO VISUAL</b><br>
+                  X-banner, Roll Up banner, exterior banner, mostradores para promoções, porta-folhetos, marcos de alumínio, acessórios electrónicos, tótems entre muitos outros. A sua Publicidade com Profissionais.
+                </p>
+              </div>
+              <div id="ctaTextRight" class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
+                <p>
+                  <b>IMPRESSÃO DIGITAL</b><br>
+                  Viníl, lona, tecido, papel<br><br>
+                  <b>RECLAMOS LUMINOSOS</b><br>
+                  Todo o tipo de reclamos luminosos<br><br>
+                  <b>DECORAÇÃO DE INTERIORES E MONTRAS</b><br>
+                  Vinil, lona, papel poster, papel autocolante, papel fotográfico, canvas, backlight
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+
         </div>
 
       </div>
@@ -283,7 +338,6 @@
       <div class="container">
 
         <div class="section-title">
-          <span>Portfolio</span>
           <h2>Portfolio</h2>
         </div>
 
@@ -399,7 +453,6 @@
       <div class="container">
 
         <div class="section-title">
-          <span>Contacto</span>
           <h2>Contacto</h2>
         </div>
 

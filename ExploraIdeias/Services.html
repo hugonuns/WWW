@@ -29,7 +29,6 @@
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -237,7 +236,7 @@
           </div>
           <div class="services-description">
             <p>Dispomos de técnicos especializados e dedicados só para montagens.<br>
-              Estamos vocacionados tanto para decoração de Interiores como de exteriores assim como decoração de viaturas ou aviões.<br>
+              Estamos vocacionados tanto para decoração de Interiores como de exteriores assim como decoração de viaturas<br>
               Para que o aspecto final dos nossos trabalhos seja perfeito dispomos de equipamentos para: laminação, plastificação, vulcanização, costura, colocação de ilhoses e envernizamento.</p>
           </div>
         </div>
@@ -259,7 +258,7 @@
 
     </div>
   </section>
-  <section id="ServiceGlobais" class="portfolio-details">
+  <section id="ServiceCorteGravacao" class="portfolio-details">
     <div class="container">
 
       <div class="row gy-4">
@@ -269,25 +268,35 @@
             <div class="swiper-wrapper align-items-top">
 
               <div class="swiper-slide">
-                <img src="assets/img/Services/ServiceGlobais1.jpg" alt="">
+                <img src="assets/img/Services/ServiceCorte1.jpg" alt="">
               </div>
-            </div>
+
+              <div class="swiper-slide">
+                <img src="assets/img/Services/ServiceCorte2.jpg" alt="">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="assets/img/Services/ServiceCorte3.jpg" alt="">
+              </div>
+          </div>
           </div>
         </div>
 
         <div class="col-lg-4">
           <div class="services-info" >
-            <h4><b>Projectos Globais</b></h4>
+            <h4><b>Corte e Gravação Laser</b></h4>
           </div>
           <div class="services-description">
-            <p>Realizamos projectos do âmbito da comunicação visual e decoração, de forma global desde a impressão, corte, acabamento até à construção de estruturas e instalação com os melhores profissionais ao nosso serviço em todo o continente e ilhas.</p>
-
+            <p>O corte e gravação a laser é uma tecnologia com recurso a uma máquina cuja ferramenta principal é um tubo de laser.
+            <br>Esta técnica é usada em várias indústrias e é possível de aplicar em vários tipos de materiais de forma precisa, o que facilita os trabalhos personalizados conforme o mercado e à medida do objetivo do cliente.
+            </p>
           </div>
         </div>
 
       </div>
     </div>
   </section>
+
   <section id="ServiceExterior" class="portfolio-details" >
     <div class="container">
 
@@ -297,43 +306,58 @@
           <div class="services-info">
             <h4><b>Publicidade Exterior</b></h4>
           </div>
-          <div class="container" id="menu" >
-          <ul class="nav nav-tabs" style="border-bottom:0px transparent;">
-            <li id="outdoors"><a data-page="empenaData" onclick="menu('outdoorsContent')">Outdoors</a></li>
-            <li id="pendoes"><a data-page="empenaData" onclick="menu('outdoorsContent')">Pendões</a></li>
-            <li id="empena"><a data-page="empenaData" onclick="menu('outdoorsContent')">Empena</a></li>
-          </ul>
-          <ul class="nav nav-tabs" style="padding-left: 20px;border-bottom:0px transparent;" id="menu2">
-            <li id="publicidade" style="text-align: center;"><a>Publicidade<br>Móvel</a></li>
-            <li id="monoposte" style=" text-align: center;"><a>Monoposte</a></li>
-          </ul>
-          </div>
-          <div id="menuContent" class="services-description">
-            <div id="defaultContent" class="content" style="display: block">
-              <p>A publicidade exterior é a forma mais antiga de publicidade.
-              <br>
-              Hoje são utilizados como suporte transportes públicos, automóveis comerciais, as cabines telefónicas, as fachadas dos prédios e tudo o mais que a imaginação dos criativos e dos empresários permitir. É acessível, gratuita e absorvida facilmente pelo consumidor visto que a publicidade exterior visa a simplicidade e o destaque.</p>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+          <div id="contentContainer">
+            <div class="btn-group">
+              <button style="" id="one-bt" class="btn-primary" data-url="
+                A publicidade exterior é a forma mais antiga de publicidade.
+                <br>
+                Hoje são utilizados como suporte transportes públicos, automóveis comerciais, as cabines telefónicas, as fachadas dos prédios e tudo o mais que a imaginação dos criativos e dos empresários permitir. É acessível, gratuita e absorvida facilmente pelo consumidor visto que a publicidade exterior visa a simplicidade e o destaque.</p>">Geral</button>
+              <button id="two-bt" class="btn-primary" data-url="<p><b>Outdoors</b>
+                <br>Investir em outdoors de grande formato é uma aposta duplamente ganha, pela eficácia e alcance de difusão das mensagens publicitárias, e pelos custos significativamente mais baixos quando comparados com outros meios de comunicação social.</p>">Outdoors</button>
+              <button id="three-bt" class="btn-primary" data-url="<p><b>Publicidade Móvel</b>
+                <br>A sua mensagem exactamente no sítio que pretende. Viaturas possuem painel de dupla face de 4x3m com possibilidade de operar em todo o Continente e Galiza.
+                <br>Temos também a possibilidade de colocar som nas nossas viaturas e fazemos gravação de spots publicitários.
+                <br>É acessível, gratuita e absorvida facilmente pelo consumidor visto que a publicidade exterior visa a simplicidade e o destaque.</p>">Publicidade Móvel</button>
+
             </div>
-            <div id="outdoorsContent" class="content">
-              <p>A publicidade exterior é a forma mais antiga de publicidade.
+            <div class="btn-group">
+              <button id="four-bt" class="btn-primary" data-url="<p><b>Pendões</b>
+              <br>Os pendões constituem um meio de comunicação com características únicas e privilegiadas, sendo a sua visibilidade excelente, a sua presença preferencial nas artérias urbanas de maior movimento, onde frequentemente o transito é compacto, permite um forte impacto repetitivo e óptima leitura, devido à sua colocação sucessiva em postes de iluminação citadina.</p>">Pendões</button>
+              <button id="five-bt" class="btn-primary" data-url="<p><b>Empena</b>
+                <br>As empenas consistem em gigantescas superficies de lona ou tela perfurada que podem ser iluminadas através de projectores de grande potência, aplicadas em fachadas de edifícios.
+                <br>São especialmente indicadas para contratos mais longos e constituem um meio de enorme prestígio para qualquer marca produto ou serviço.</p>">Empena</button>
+              <button id="six-bt" class="btn-primary" data-url="<p><b>Monoposte</b>
+                <br>As empenas consistem em gigantescas superficies de lona ou tela perfurada que podem ser iluminadas através de projectores de grande potência, aplicadas em fachadas de edifícios.
+                <br>São especialmente indicadas para contratos mais longos e constituem um meio de enorme prestígio para qualquer marca produto ou serviço.</p>">Monoposte</button>
             </div>
-            <div id="pendoesContent" class="content">
-              <p>A publicidade 123.
-            </div>
+
+              <hr>
+            <!--below is the div in which i want to use load content by jquery .load() method-->
+            <div id="containerZero"></div>
+
           </div>
         </div>
         <div class="col-lg-7">
           <div class="portfolio-details-slider swiper-container">
             <div class="swiper-wrapper align-items-top">
               <div class="swiper-slide">
-                <img src="assets/img/Services/ServiceOutdoor.jpg" alt="">
-              </div>
-
-              <div class="swiper-slide">
-                <img src="assets/img/portfolio/impressao2.jpg" alt="">
+                <img src="assets/img/Services/ServiceOutdoor1.jpg" alt="">
               </div>
               <div class="swiper-slide">
-                <img src="assets/img/portfolio/impressao2.jpg" alt="">
+                <img src="assets/img/Services/ServiceOutdoor2.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/img/Services/ServicePendao.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/img/Services/ServiceEmpena1.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/img/Services/ServiceEmpena2.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/img/Services/ServiceEmpena3.jpg" alt="">
               </div>
               <div class="swiper-slide">
                 <img src="assets/img/Services/ServicePubMovel.jpg" alt="">
@@ -385,6 +409,8 @@
             <h4><b>Reclamos Luminosos</b></h4>
           </div>
           <div class="services-description">
+            <p>Os reclamos luminosos são um tipo de publicidade, com alto impacto visual, que remete ao estilo vintage e retro. Sendo tendência no mercado, são muito solicitados para comércio e restauração, podendo assumir a forma de letreiro tradicional ou de caixas de luz.<br>
+              Totalmente personalizáveis na forma, tamanho, espessura ou nas cores, os reclamos luminosos conseguem apresentar-se de forma muito variada.</p>
           </div>
         </div>
 
@@ -401,7 +427,10 @@
             <h4><b>Rede de Outdoors de Aluguer</b></h4>
           </div>
           <div class="services-description">
-            <p>A Exploraideias dispõe de todos os mecanismos necessários para fabricação de qualquer dimensão de Outdoors.</p>
+            <p>A Exploraideias dispõe de todos os mecanismos necessários para fabricação de qualquer dimensão de Outdoors.<br>
+              As dimensões standard são 4x3 mts e 8x3 mts, no entanto, fruto da nossa capacidade de fabricação, poderemos desenvolver qualquer outra dimensão que o cliente necessite.</p>
+            <p><b>MANUTENÇÃO</b><br>
+              Garantimos a manutenção dos nossos suportes, sempre que detectada alguma anomalia reparamos ou substituímos num período máximo de 48 horas.</p>
           </div>
         </div>
         <div class="col-lg-7">
@@ -409,7 +438,7 @@
             <div class="swiper-wrapper align-items-top">
 
               <div class="swiper-slide">
-                <img src="assets/img/Services/ServiceOutdoor.jpg" alt="">
+                <img src="assets/img/Services/ServiceOutdoor1.jpg" alt="">
               </div>
               <div class="swiper-slide">
                 <img src="assets/img/Services/ServiceAluguer1.jpg" alt="">
@@ -448,23 +477,27 @@
             <h4><b>Sistemas de Exposição</b></h4>
           </div>
           <div class="services-description">
+            <p>Possuímos um vasto catálogo de propostas de sistemas de exposição.<br>
+              Concebemos à sua medida, apresentamos o projecto e fornecemos o produto integral (estrutura + imagem).<br>
+              Idealizados para publicitar ou como apoio comercial, os variados sistemas de exposição. Podem ser utilizados no seu espaço comercial, no átrio da sua empresa, numa exposição ou em feiras.</p>
           </div>
         </div>
 
       </div>
     </div>
   </section>
-  <section id="ServiceCorteGravacao" class="portfolio-details" >
+    <section id="ServiceDecInteriores" class="portfolio-details" >
     <div class="container">
 
       <div class="row gx-5">
 
         <div class="col-lg-4">
           <div class="services-info">
-            <h4><b>Corte e Gravação Laser</b></h4>
+            <h4><b>Decoração de Interiores <br>e Montras</b></h4>
           </div>
           <div class="services-description">
-            <p>A Exploraideias dispõe de todos os mecanismos necessários para fabricação de qualquer dimensão de Outdoors.</p>
+            <p>Estamos vocacionados tanto para decoração de Interiores como de exteriores assim como decoração de viaturas<br>
+              Para que o aspecto final dos nossos trabalhos seja perfeito dispomos de equipamentos para: laminação, plastificação, vulcanização, costura, colocação de ilhoses e envernizamento.</p>
           </div>
         </div>
         <div class="col-lg-7">
@@ -472,13 +505,16 @@
             <div class="swiper-wrapper align-items-top">
 
               <div class="swiper-slide">
-                <img src="assets/img/Services/ServiceOutdoor.jpg" alt="">
+                <img src="assets/img/Services/ServiceDecInteriores1.jpg" alt="">
               </div>
               <div class="swiper-slide">
-                <img src="assets/img/Services/ServiceAluguer1.jpg" alt="">
+                <img src="assets/img/Services/ServiceDecInteriores2.jpg" alt="">
               </div>
               <div class="swiper-slide">
-                <img src="assets/img/Services/ServiceAluguer2.jpg" alt="">
+                <img src="assets/img/Services/ServiceDecMontras1.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/img/Services/ServiceDecMontras2.jpg" alt="">
               </div>
             </div>
           </div>
@@ -550,7 +586,7 @@
 
   <div class="container">
     <div class="copyright">
-      &copy; Copyright <strong><span>Day</span></strong>. All Rights Reserved
+      &copy; Copyright <strong>Explora Ideias Publicidade</strong>. All Rights Reserved
     </div>
     <div class="credits">
       <!-- All the links in the footer should remain intact. -->
@@ -575,18 +611,27 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
+
 <!-- Template Main JS File -->
 <script src="assets/js/main.js"></script>
 <script>
-  function menu(el){
-    var y = document.getElementById('menuContent');
-    var x = document.getElementById(el);
-    y.style.display = "none";
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    }
-  }
-</script>
+  $(document).ready(function(){
+    $(document).on('click' , '.btn-primary:not(.active)' , function(){
+      var getfile = $(this).data('url');
+      $('.btn-primary').removeClass('active');
+      $(this).addClass('active');
+      /*$("#containerZero").hide().load(getfile , function(){
+        $("#containerZero").slideDown();
+      });*/
+
+
+      // for test
+      $("#containerZero").hide().html(getfile);
+      $("#containerZero").slideDown();
+    });
+    $('.btn-primary').eq(0).click();
+  });
+</script><!-- usar o visible para todas e no final  -->
 </body>
 
 </html>
