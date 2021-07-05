@@ -19,7 +19,7 @@
 
   <!-- Favicons -->
   <link href="assets/img/favicon.jpg" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/favicon.jpg" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -48,7 +48,7 @@
         <i class="bi bi-phone-fill phone-icon"></i> +351 253 844 090
       </div>
       <div class="social-links d-none d-md-block">
-        <a href="https://www.facebook.com/exploraideiaspublicidade" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.facebook.com/exploraideiaspublicidade" class="facebook"><i class="bi bi-facebook" style="font-size: 20px"></i></a>
       </div>
     </div>
   </section>
@@ -68,7 +68,7 @@
           <li><a class="nav-link scrollto" href="#services">Serviços</a></li>
           <li><a class="nav-link scrollto " href="#revenda">Revenda</a></li>
           <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contactos</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"> </i>
       </nav><!-- .navbar -->
@@ -90,10 +90,10 @@
     <section id="about" class="about">
 
       <div class="container">
-        <h2 style="margin-bottom: 0.6cm">Empresa</h2>
+        <h2 class="section-title" style="margin-bottom: 0.6cm">EMPRESA</h2>
         <div class="row" >
           <div id="aboutTextRight" class="col-lg-6 order-1 order-lg-2" data-aos="fade-left">
-            <h3>VISÃO</h3>
+            <h3>Visão</h3>
             <p>
               Seremos o seu parceiro que responde a todas as necessidades nesta área.<br>
               Acompanhando a evolução das novas tecnologias dispomos dos mais recentes meios em impressão digital, corte, vinil, decoração de interiores e acabamento, para com autonomia e profissionalismo produzir tudo para a sua empresa, evento ou marca.<br>
@@ -102,7 +102,7 @@
           </div>
           <div id="aboutTextLeft" class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
 
-            <h3>MISSÃO</h3>
+            <h3>Missão</h3>
             <p>
               A empresa Explora Ideias Publicidade tem como grande objectivo e missão de trabalho o desenvolvimento de soluções criativas na satisfação das necessidades específicas de cada cliente.<br>
               Com larga experiência ao serviço da publicidade, efectuamos trabalhos com modernidade, talento e competência.<br>
@@ -128,9 +128,10 @@
         <div class="row">
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" id="section_one">
             <div class="icon-box">
-              <div class="icon"><img style="width: 70%;height: 70%" src="assets/img/icons/ICONS-13.png" alt=""></div>
+              <div class="icon"><img style="width: 70%;height: 70%" src="assets/img/icons/ICONS-13.png" alt="" onclick="services('ServiceDesign')"></div>
               <h4>Design Gráfico + Pré Impressão</h4>
-              <p>O processo criativo traduz-se na aplicação de um conceito, ideia ou visão, a um objectivo, de forma a causar reacção ou efeito sobre a razão.</p>
+              <p>O processo criativo traduz-se na aplicação de um conceito, ideia ou visão, a um objectivo, de forma a causar reacção ou efeito sobre a razão.
+              <br><br><br></p>
               <div class="col-lg-12 d-flex justify-content-center">
                 <ul id="services-filters">
                   <li data-filter="*" onclick="services('ServiceDesign')">Saber Mais</li>
@@ -141,9 +142,10 @@
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="150" >
             <div class="icon-box">
-              <div class="icon"><img style="width: 70%;height: 70%" src="assets/img/icons/ICONS-01.png" alt=""></div>
+              <div class="icon"><img style="width: 70%;height: 70%" src="assets/img/icons/ICONS-02.png" alt="" onclick="services('ServiceImpressao')"></div>
               <h4>Impressão Digital</h4>
-              <p>Acreditamos que o conhecimento é fruto da imaginação e da curiosidade. E que o único lugar onde o sucesso vem antes do trabalho é no dicionário.</p>
+              <p>Acreditamos que o conhecimento é fruto da imaginação e da curiosidade. E que o único lugar onde o sucesso vem antes do trabalho é no dicionário.
+                <br><br><br><br></p>
               <div class="col-lg-12 d-flex justify-content-center">
                 <ul id="services-filters">
                   <li data-filter="*" onclick="services('ServiceImpressao')">Saber Mais</li>
@@ -153,9 +155,9 @@
           </div>
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
             <div class="icon-box">
-              <div class="icon"><img style="width: 70%;height: 70%" src="assets/img/icons/ICONS-05.png" alt=""></div>
+              <div class="icon"><img style="width: 70%;height: 70%" src="assets/img/icons/ICONS-05.png" alt="" onclick="services('ServiceViaturas')"></div>
               <h4>Decoração de Viaturas</h4>
-              <p>Podem ser decoradas em vinil recortado ou impressão digital.</p>
+              <p>Podem ser decoradas em vinil recortado ou impressão digital.<br><br><br><br><br><br></p>
               <div class="col-lg-12 d-flex justify-content-center">
                 <ul id="services-filters">
                   <li data-filter="*" onclick="services('ServiceViaturas')">Saber Mais</li>
@@ -165,10 +167,11 @@
           </div>
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
             <div class="icon-box">
-              <div class="icon"><img style="width: 70%;height: 70%" src="assets/img/icons/ICONS-06.png" alt=""></div>
+              <div class="icon"><img style="width: 70%;height: 70%" src="assets/img/icons/ICONS-06.png" alt="" onclick="services('ServiceAplicacao')"></div>
               <h4>Aplicação e Acabamentos</h4>
               <p>Dispomos de técnicos especializados e dedicados só para montagens.</p>
-              <p>Estamos vocacionados tanto para decoração de Interiores como de exteriores assim como decoração de viaturas ou aviões.</p>
+              <p>Estamos vocacionados tanto para decoração de Interiores como de exteriores assim como decoração de viaturas ou aviões.
+                <br><br></p>
               <div class="col-lg-12 d-flex justify-content-center">
                 <ul id="services-filters">
                   <li onclick="services('ServiceAplicacao')">Saber Mais</li>
@@ -178,9 +181,10 @@
           </div>
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
               <div class="icon-box">
-                <div class="icon"><img style="width: 70%;height: 70%" src="assets/img/icons/ICONS-12.png" alt=""></div>
-                <h4>Corte e Gravação Laser</h4>
-                <p>O corte e gravação a laser é uma tecnologia com recurso a uma máquina cuja ferramenta principal é um tubo de laser.</p>
+                <div class="icon"><img style="width: 70%;height: 70%" src="assets/img/icons/ICONS-12.png" alt="" onclick="services('ServiceCorteGravacao')"></div>
+                <h4>Corte CNC e Laser</h4>
+                <p>O corte e gravação a laser é uma tecnologia com recurso a uma máquina cuja ferramenta principal é um tubo de laser.
+                  <br><br><br><br><br></p>
                 <div class="col-lg-12 d-flex justify-content-center">
                   <ul id="services-filters">
                     <li data-filter="*" onclick="services('ServiceCorteGravacao')">Saber Mais</li>
@@ -191,10 +195,10 @@
 
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="750">
               <div class="icon-box">
-                <div class="icon"><img style="width: 70%;height: 70%" src="assets/img/icons/ICONS-07.png" alt=""></div>
+                <div class="icon"><img style="width: 70%;height: 70%" src="assets/img/icons/ICONS-10.png" alt="" onclick="services('ServiceExterior')"></div>
                 <h4>Publicidade Exterior</h4>
                 <p>A publicidade exterior é a forma mais antiga de publicidade. <br>
-                  Os primeiros meios físicos utilizados foram os tradicionais outdoors, porém nos últimos anos a publicidade exterior estendeu-se a novos meios estáticos e móveis.</p>
+                  Os primeiros meios físicos utilizados foram os tradicionais outdoors, porém nos últimos anos a publicidade exterior estendeu-se a novos meios estáticos e móveis.<br><br></p>
                 <div class="col-lg-12 d-flex justify-content-center">
                   <ul id="services-filters">
                     <li data-filter="*" onclick="services('ServiceExterior')">Saber Mais</li>
@@ -205,9 +209,9 @@
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="600">
             <div class="icon-box">
-              <div class="icon"><img style="width: 70%;height: 70%" src="assets/img/icons/ICON-ReclamoLuminoso.png" alt=""></div>
+              <div class="icon"><img style="width: 70%;height: 70%" src="assets/img/icons/ICON-ReclamoLuminoso.png" alt="" onclick="services('ServiceReclamoLuminoso')"></div>
               <h4>Reclamos Luminosos</h4>
-                <p>Actualmente os reclamos luminosos extistentes no mercado dividem-se em 4 tipos:<br></p>
+                <p>Actualmente os reclamos luminosos extistentes no mercado dividem-se em 4 tipos:<br><br><br><br><br></p>
               <div class="col-lg-12 d-flex justify-content-center">
                 <ul id="services-filters">
                   <li data-filter="*" onclick="services('ServiceReclamoLuminoso')">Saber Mais</li>
@@ -218,23 +222,10 @@
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="600">
             <div class="icon-box">
-              <div class="icon"><img style="width: 70%;height: 70%" src="assets/img/icons/ICONS-10.png" alt=""></div>
-              <h4>Rede de Outdoors de Aluguer</h4>
-              <p>A Exploraideias dispõe de todos os mecanismos necessários para fabricação de qualquer dimensão de Outdoors.</p>
-              <div class="col-lg-12 d-flex justify-content-center">
-                <ul id="services-filters">
-                  <li data-filter="*" onclick="services('ServiceOutdoorAluguer')">Saber Mais</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="600">
-            <div class="icon-box">
-              <div class="icon"><img style="width: 70%;height: 70%" src="assets/img/icons/ICON-sistemaExposicao.png" alt=""></div>
+              <div class="icon"><img style="width: 70%;height: 70%" src="assets/img/icons/exposicao.png" alt="" onclick="services('ServiceExposicao')"></div>
               <h4>Sistemas de Exposição</h4>
               <p>Possuímos um vasto catálogo de propostas de sistemas de exposição.<br>
-                Concebemos à sua medida, apresentamos o projecto e fornecemos o produto integral (estrutura + imagem).</p>
+                Concebemos à sua medida, apresentamos o projecto e fornecemos o produto integral (estrutura + imagem).<br><br><br></p>
               <div class="col-lg-12 d-flex justify-content-center">
                 <ul id="services-filters">
                   <li data-filter="*" onclick="services('ServiceExposicao')">Saber Mais</li>
@@ -244,10 +235,10 @@
           </div>
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="600" style="">
             <div class="icon-box">
-              <div class="icon"><img style="width: 70%;height: 70%" src="assets/img/icons/ICON-sistemaExposicao.png" alt=""></div>
+              <div class="icon"><img style="width: 70%;height: 70%" src="assets/img/icons/ICONS-07.png" alt="" onclick="services('ServiceDecInteriores')"></div>
               <h4>Decoração de Interiores e Montras</h4>
               <p>Possuímos um vasto catálogo de propostas de sistemas de exposição.<br>
-                Concebemos à sua medida, apresentamos o projecto e fornecemos o produto integral (estrutura + imagem).</p>
+                Concebemos à sua medida, apresentamos o projecto e fornecemos o produto integral (estrutura + imagem).<br><br></p>
               <div class="col-lg-12 d-flex justify-content-center">
                 <ul id="services-filters">
                   <li data-filter="*" onclick="services('ServiceDecInteriores')">Saber Mais</li>
@@ -301,7 +292,7 @@
 
       </div>
     </section><!-- End Cta Section -->
-    <!-- ======= Portfolio Section ======= -->
+
     <section id="portfolio" class="portfolio">
       <div class="container">
 
@@ -342,6 +333,21 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-exterior">
             <a href="assets/img/portfolio/PortfolioOutdoor.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link img-hover-zoom--colorize"><img src="assets/img/portfolio/PortfolioOutdoor.jpg" class="img-fluid" alt=""></a>
             <p>Outdoor</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-exterior">
+            <a href="assets/img/portfolio/PortfolioFlyers.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link img-hover-zoom--colorize"><img src="assets/img/portfolio/PortfolioFlyers.jpg" class="img-fluid" alt=""></a>
+            <p>Flyers</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-exterior">
+            <a href="assets/img/portfolio/PortfolioBandeiras.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link img-hover-zoom--colorize"><img src="assets/img/portfolio/PortfolioBandeiras.jpg" class="img-fluid" alt=""></a>
+            <p>Bandeiras</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-exterior">
+            <a href="assets/img/portfolio/PortfolioSinaletica.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link img-hover-zoom--colorize"><img src="assets/img/portfolio/PortfolioSinaletica.jpg" class="img-fluid" alt=""></a>
+            <p>Sinalética</p>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-exterior">
@@ -433,12 +439,16 @@
       </div>
     </section><!-- End Portfolio Section -->
 
+
+    <!-- ======= Portfolio Section ======= -->
+
+
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container">
 
         <div class="section-title">
-          <h2>Contacto</h2>
+          <h2>Contactos</h2>
         </div>
 
         <div class="row" data-aos="fade-up">

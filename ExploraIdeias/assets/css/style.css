@@ -154,7 +154,7 @@ font-family: "Montserrat";
 }
 
 #topbar .social-links a:hover {
-  color: #fff;
+  color: rgb(166, 253, 75);
 }
 
 /*--------------------------------------------------------------
@@ -402,7 +402,7 @@ font-family: "Montserrat";
 #hero {
   width: 100%;
   height: calc(100vh - 110px);
-  background: url("../img/campus.jpg") center;
+  background: url("../img/testehero.jpg") center;
   background-size: cover;
   position: relative;
 }
@@ -434,9 +434,6 @@ font-family: "Montserrat";
   margin-bottom: 30px;
   font-size: 28px;
   text-align: center;
-}
-#hero h2 span {
-  background-color: black;
 }
 
 #hero .btn-get-started {
@@ -544,7 +541,7 @@ section {
 }
 .about h2 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 46px;
+  font-size: 32px;
   font-weight: 700;
   text-align: left;
 }
@@ -671,7 +668,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: auto;
   transform-style: preserve-3d;
 }
 .services .icon-box .smallIcon {
@@ -691,6 +688,7 @@ section {
 
 .services .icon-box h4 {
   font-weight: 700;
+  margin-top: 20px;
   margin-bottom: 15px;
   font-size: 24px;
 }
@@ -786,7 +784,7 @@ section {
 --------------------------------------------------------------*/
 .portfolio #portfolio-flters {
   padding: 0;
-  margin: 0 auto 25px auto;
+  margin: -20px auto 25px auto;
   list-style: none;
   text-align: center;
   border-radius: 50px;
@@ -798,6 +796,20 @@ section {
   list-style: none;
   text-align: center;
   border-radius: 50px;
+}
+
+.services #services-filters::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: rgb(255, 255, 255);
+  transition: width .3s;
+}
+
+.services #services-filters:hover::after {
+  width: 100%;
+//transition: width .4s;
 }
 
 .portfolio #portfolio-flters li {
@@ -930,11 +942,12 @@ section {
 # Portfolio Details
 --------------------------------------------------------------*/
 .portfolio-details {
+  align-items: center;
+  display: flex;
+  justify-content: center;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: auto;
+
 }
 
 .portfolio-details .portfolio-details-slider img {
@@ -1503,12 +1516,31 @@ section {
   color: #fff;
   font-size: 14px;
 }
+#serviceMenu {
+  background: rgb(0, 0, 0);
+  padding: 0 0 30px 0;
+  color: #fff;
+  font-size: 14px;
+  column-gap: 50px;
+}
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
 }
+#serviceMenu .service-top {
+  padding: 60px 50px 30px 0;
+}
 
 #footer .footer-top .footer-info {
+  margin-bottom: 15px;
+  background: #191919;
+  color: #fff;
+  border-top: 4px solid rgb(166, 253, 75);
+  text-align: center;
+  padding: 30px 20px;
+}
+
+#serviceMenu .service-top .service-info {
   margin-bottom: 15px;
   background: #191919;
   color: #fff;
@@ -1524,8 +1556,22 @@ section {
   line-height: 1;
   font-weight: 700;
 }
+#serviceMenu .service-top .service-info h3 {
+  font-size: 36px;
+  margin: 0 0 20px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  font-weight: 700;
+}
 
 #footer .footer-top .footer-info p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+#serviceMenu .service-top .service-info p {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
@@ -1564,6 +1610,23 @@ section {
 #footer .footer-top .footer-links {
   margin-bottom: 30px;
 }
+#serviceMenu .service-top h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+#serviceMenu .service-top .service-links {
+  margin-bottom: 30px;
+}
+
+#serviceMenu .service-top .service-links {
+  float:right;
+  margin-bottom: 30px;
+  margin-left: 70px;
+}
 
 #footer .footer-top .footer-links ul {
   list-style: none;
@@ -1596,6 +1659,40 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
+  color: rgb(30, 198, 105);
+}
+
+#service .service-top .service-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#service .service-top .service-links ul i {
+  padding-right: 2px;
+  color: rgb(30, 198, 105);
+  font-size: 18px;
+  line-height: 1;
+}
+
+#service .service-top .service-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+#service .service-top .service-links ul li:first-child {
+  padding-top: 0;
+}
+
+#service .service-top .service-links ul a {
+  color: #fff;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+}
+
+#service .service-top .service-links ul a:hover {
   color: rgb(30, 198, 105);
 }
 
@@ -1669,31 +1766,34 @@ section {
   display: block;
 }
 .btn-primary{
-  color: black;
+  color: black !important;
+  font-size: 16px;
   margin-right: 0.2cm;
-  background-color: transparent;
-  border-color: transparent;
+  background-color: transparent !important;
+  border-color: transparent !important;
   display:inline-block;
   text-decoration: none;
 }
 .btn-primary:hover{
-  color: rgb(166, 253, 75);
+  color: rgb(166, 253, 75) !important;
   background-color: transparent ;
   border-color: transparent;
+  font-weight: bold;
 }
 .btn-primary:click{
-  color: rgb(166, 253, 75);
+  color: rgb(166, 253, 75) !important;
   background-color: transparent ;
   border-color: transparent;
 }
-.btn-check:active+.btn-primary, .btn-check:checked+.btn-primary, .btn-primary.active, .btn-primary:active, .show>.btn-primary.dropdown-toggle{
-  color: rgb(166, 253, 75);
+.btn-check:active+.btn-primary, .btn-check:checked+.btn-primary, .btn-primary.active, .btn-primary:active, .show>.btn-primary.dropdown-toggle {
+  color: rgb(166, 253, 75) !important;
   background-color: transparent ;
   border-color: transparent;
   outline: none !important;
   border: none !important;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
+  font-weight: bold;
 }
 
 .btn-primary::after {
@@ -1707,7 +1807,17 @@ section {
 
 .btn-primary:hover::after {
   width: 100%;
-//transition: width .4s;
+  transition: width .4s;
+}
+hr{
+  height: 5px;
+  color: rgb(166, 253, 75);
+  opacity: 1;
+}
+
+.btn-check:active+.btn-primary::after{
+  width: 100%;
+  transition: width .4s;
 }
 
 .btn-group{
