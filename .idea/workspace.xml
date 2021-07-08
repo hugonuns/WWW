@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="897606ee-61cc-44f9-85cd-83da190f1004" name="Default Changelist" comment="Backup 07/07">
+      <change afterPath="$PROJECT_DIR$/ExploraIdeias/assets/img/portfolio/PortfolioViatura.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExploraIdeias/Services.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExploraIdeias/Services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExploraIdeias/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/ExploraIdeias/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExploraIdeias/assets/img/Services/ServiceCorte1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ExploraIdeias/assets/img/Services/ServiceCorte1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExploraIdeias/assets/img/Services/ServiceDesign.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ExploraIdeias/assets/img/Services/ServiceDesign.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExploraIdeias/assets/vendor/php-email-form/validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExploraIdeias/changelog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExploraIdeias/forms/Readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExploraIdeias/forms/contact_mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExploraIdeias/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExploraIdeias/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/SWGFCT/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="test" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1619002836" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="test" />
+                    <option name="lastUsedInstant" value="1615475856" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ExploraIdeias/assets/css/style.css" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/asm89/stack-cors" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/composer" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/facade/flare-client-php" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/facade/ignition" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/fruitcake/laravel-cors" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/phenx/php-svg-lib" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/phenx/php-font-lib" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/sabberworm/php-css-parser" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/dompdf/dompdf" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/laravel/sail" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/barryvdh/laravel-dompdf" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/barryvdh/reflection-docblock" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/barryvdh/laravel-ide-helper" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/silber/bouncer" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/seld/phar-utils" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/seld/jsonlint" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/laravel/breeze" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/react/promise" />
+      <path value="$PROJECT_DIR$/SWGFCT/vendor/justinrainbow/json-schema" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1ouDEexI7D6hJlUP0Siy9mJVgLL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SWGFCT" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ExploraIdeias/assets/img/Services" />
+      <recent name="$PROJECT_DIR$/ExploraIdeias/assets/img/icons" />
+      <recent name="$PROJECT_DIR$/ExploraIdeias/assets/img/portfolio" />
+      <recent name="$PROJECT_DIR$/ExploraIdeias/assets/img" />
+      <recent name="$PROJECT_DIR$/ExploraIdeias/forms" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ExploraIdeias/assets/img/Services" />
+      <recent name="$PROJECT_DIR$/ExploraIdeias/assets/img/ServiceVIatura1.jpg" />
+      <recent name="$PROJECT_DIR$/ExploraIdeias/assets/img/icons" />
+      <recent name="$PROJECT_DIR$/Day/assets/img/clients" />
+      <recent name="$PROJECT_DIR$/Day/assets/img" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$PROJECT_DIR$/../.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="897606ee-61cc-44f9-85cd-83da190f1004" name="Default Changelist" comment="" />
+      <created>1614127471513</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614127471513</updated>
+      <workItem from="1614127472649" duration="6094000" />
+      <workItem from="1614872552292" duration="3044000" />
+      <workItem from="1614875849539" duration="8231000" />
+      <workItem from="1615475257078" duration="10349000" />
+      <workItem from="1615557045329" duration="1867000" />
+      <workItem from="1615982317019" duration="329000" />
+      <workItem from="1616059078121" duration="12708000" />
+      <workItem from="1616576769113" duration="2455000" />
+      <workItem from="1617972738404" duration="1909000" />
+      <workItem from="1618995616779" duration="4645000" />
+      <workItem from="1619002974398" duration="32000" />
+      <workItem from="1621780893880" duration="16600000" />
+      <workItem from="1621981419193" duration="11724000" />
+      <workItem from="1622212687249" duration="4094000" />
+      <workItem from="1623618076456" duration="10439000" />
+      <workItem from="1623750835290" duration="8386000" />
+      <workItem from="1623768849972" duration="70523000" />
+      <workItem from="1624273926343" duration="81985000" />
+      <workItem from="1624958638592" duration="24072000" />
+      <workItem from="1625128165253" duration="32147000" />
+      <workItem from="1625501406907" duration="21013000" />
+      <workItem from="1625646677294" duration="24182000" />
+    </task>
+    <task id="LOCAL-00001" summary="Teste">
+      <created>1615475705721</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615475705721</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Teste">
+      <created>1619002613879</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619002613879</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Teste">
+      <created>1619002766966</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619002766966</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Teste">
+      <created>1623857608447</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1623857608447</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Backup 17/06">
+      <created>1623945896930</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1623945896930</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Backup 18/06">
+      <created>1624032521072</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1624032521072</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Backup half 21/06">
+      <created>1624272334229</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1624272334229</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Backup 22/06">
+      <created>1624376900047</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1624376900047</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Backup 28/06">
+      <created>1624867144220</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1624867144220</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Backup 01/07">
+      <created>1625136133511</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1625136133511</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Backup 05/07">
+      <created>1625523937882</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1625523937882</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Backup 07/07">
+      <created>1625645230815</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1625645230815</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Teste" />
+    <MESSAGE value="Backup 17/06" />
+    <MESSAGE value="Backup 18/06" />
+    <MESSAGE value="Backup half 21/06" />
+    <MESSAGE value="Backup 22/06" />
+    <MESSAGE value="Backup 28/06" />
+    <MESSAGE value="Backup 01/07" />
+    <MESSAGE value="Backup 05/07" />
+    <MESSAGE value="Backup 07/07" />
+    <option name="LAST_COMMIT_MESSAGE" value="Backup 07/07" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/ExploraIdeias/assets/js/main.js</url>
+          <line>219</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/ExploraIdeias/assets/js/main.js</url>
+          <line>247</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
